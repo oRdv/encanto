@@ -1,0 +1,22 @@
+/*reset*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    padding: 70px 70px 24px 70px;
+    background-image: url(https://www.pcclean.io/wp-content/uploads/2022/01/3194309156390802616.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    align-items: initial;
+    font-size: 18px;
+    color: white;
+}
